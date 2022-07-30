@@ -1,0 +1,31 @@
+.right__side__panel{
+    width: 90%;
+    border: 1px solid lightgray;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.right__side__panel{
+    text-align: center;
+    font-weight: bolder;
+}
+.right__side__panel__heading{
+    border: 1px solid lightgray;
+}
+.right__panel__list>li{
+  list-style: none;
+  color: teal;
+  cursor: pointer;
+}
+.right__panel__list>li:hover{
+    list-style: none;
+    color: white;
+    background-color: teal;
+  }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    .right__side__panel{
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    
+  }

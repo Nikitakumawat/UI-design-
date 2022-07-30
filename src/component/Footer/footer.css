@@ -1,0 +1,22 @@
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .footer{
+        width: 120%;
+    }
+  }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 125%;
+    }
+}

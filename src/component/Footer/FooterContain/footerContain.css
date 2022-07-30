@@ -1,0 +1,11 @@
+.footer__contain{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.footer__title{
+    font-weight: 700;
+}
+.details >p{
+    color: grey;
+}

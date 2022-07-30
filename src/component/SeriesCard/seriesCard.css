@@ -1,0 +1,25 @@
+.series__detail{
+    display: flex;
+    margin: 10px;
+}
+.series__image{
+    height: 100px;
+    width: 100px;
+}
+.series__image >img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.series__info{
+    margin-left: 10px;
+}
+.series__heading{
+    color: #30D5C8;
+    font-size: 18px;
+    font-weight: bold;
+}
+.series__description{
+    color: grey;
+    font-size: 14px;
+}

@@ -1,0 +1,47 @@
+.navbar{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+}
+.heading{
+    color: #008080;
+    font-weight: bold;
+    font-size: 30px;
+}
+.navtab__list{
+    display: flex;
+}
+.navtab{
+    color: grey;
+    margin: 5px;
+    cursor: pointer;
+}
+.navtab:hover{
+    color: white;
+    background-color: black;
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .navbar{
+        width: 120%;
+        background-color: black;
+        display: flex;
+        padding: 10px;
+        margin: 0;
+    }
+  }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .navbar{
+        width: 125%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        margin: 0;
+    }
+  }

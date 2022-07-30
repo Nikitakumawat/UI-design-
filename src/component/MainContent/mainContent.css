@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Source+Code+Pro:ital,wght@1,200&display=swap');
+.main__content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.first_para{
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-bottom: 10px;
+}
+.left__panel{
+    width: 45%;
+}
+.sub__content{
+    color: grey;
+}
+.quote{
+    color: grey;
+    font-size: 16px;
+    width: 80%;
+    padding: 30px;
+    height: 30%;
+    float: right;
+    font-family: 'Source Code Pro', monospace;
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .quote{
+        color: grey;
+        font-size: 16px;
+        width: 100%;
+        padding: 30px;
+        height: 30%;
+        float: right;
+        font-family: 'Source Code Pro', monospace;
+    }
+  }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .main__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left__panel{
+        margin-left: 35px;
+        width: 100%;
+        text-align: justify;
+    }
+    .quote{
+      width: 100%;
+    }
+    .right__panel{
+        margin-left: 40px;
+    }
+  }
